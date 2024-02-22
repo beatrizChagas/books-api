@@ -2,6 +2,7 @@
 require 'spec_helper'
 require 'database_cleaner'
 require 'shoulda/matchers'
+require 'faker'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
